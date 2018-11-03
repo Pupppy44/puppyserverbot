@@ -7,7 +7,7 @@ Client.on('ready', ()=>{
     console.log("Bot is online, fellow.");
     console.log(`Bot has started, with ${Client.users.size} users, in ${Client.channels.size} channels of ${Client.guilds.size} guilds.`);
     
-    Client.user.setPresence({ game: { name: (process.env.STATUS), type: 3 } });
+    Client.user.setPresence({ game: { name: (process.env.STATUS), type: (process.env.TYPE) } });
     Client.user.setStatus('Online');
 
     
