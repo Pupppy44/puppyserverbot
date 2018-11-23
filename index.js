@@ -274,6 +274,12 @@ hook.send(`Report by: ${message.author} | ID: ${message.author.id}\nChannel: ${m
 message.react("✅");
 
 }
+    
+    if(message.content.startsWith(prefix + "abbydood")){
+        const generalo = message.guild.channels.find(`name`, "general");
+              generalo.send(args[1])
+        
+    }
 
 
 
