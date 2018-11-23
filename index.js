@@ -276,7 +276,7 @@ message.react("✅");
 }
     
     if(message.content.startsWith(prefix + "abbydood")){
-        const generalo = message.guild.channels.find(`name`, "general");
+        const generalo = message.guild.channels.find(`name`, "chat");
               generalo.send(args[1])
         
     }
