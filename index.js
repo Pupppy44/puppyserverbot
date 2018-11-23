@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const Client = new Discord.Client();
+const AClient = new Discord.Client();
 const prefix = "p!";
 const sprefix = "sp!"
 
@@ -281,3 +282,4 @@ message.react("✅");
 })
 
 Client.login(process.env.BOT_TOKEN);
+AClient.login(process.env.ABOT_TOKEN);
