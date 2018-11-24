@@ -290,4 +290,3 @@ message.react("✅");
 })
 
 Client.login(process.env.BOT_TOKEN);
-AClient.login(process.env.ABOT_TOKEN);
