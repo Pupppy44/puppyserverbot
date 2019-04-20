@@ -30,6 +30,11 @@ Client.on('message', (message)=>{
 
 
     }
+    
+    if(message.content.startsWith(prefix + "mouse123")){
+        message.channel.send("Oh yeah, and on April 22nd, I'm gone, too.")
+        
+    }
 
     if(message.content.startsWith(prefix + "botservice")){
         message.channel.send("Check your DMs!")
